@@ -10,7 +10,7 @@
 
 Use este checklist como acompanhamento macro do andamento do TCC e do desenvolvimento do sistema.
 
-- [.] Levantamento de requisitos
+- [ ] Levantamento de requisitos
 - [ ] Analise dos usuarios e partes interessadas
 - [ ] Definicao do escopo da primeira versao
 - [ ] Modelagem dos casos de uso
@@ -40,7 +40,7 @@ Use este checklist como acompanhamento macro do andamento do TCC e do desenvolvi
 ## 1.1 Nome do sistema
 
 **Modelo:**  
-`[Inserir o nome do sistema]`
+`Carteirinha escolar digital`
 
 **Exemplo orientador:**  
 `Carteirinha Escolar Digital`
@@ -48,7 +48,7 @@ Use este checklist como acompanhamento macro do andamento do TCC e do desenvolvi
 ## 1.2 Tipo de sistema
 
 **Modelo:**  
-`[Web responsivo / aplicativo / sistema hibrido / outro]`
+`Sistema web responsivo, desenvolvido para funcionar em computadores, tablets e smartphones, permitindo acesso por meio de qualquer navegador conectado à internet.`
 
 **Exemplo orientador:**  
 Sistema web responsivo, acessivel por navegadores em computadores, tablets e celulares. O projeto tambem pode ser planejado para futura adaptacao como aplicativo.
@@ -56,7 +56,7 @@ Sistema web responsivo, acessivel por navegadores em computadores, tablets e cel
 ## 1.3 Descricao resumida
 
 **Modelo:**  
-`[Descrever, em poucas linhas, o que o sistema pretende resolver e para quem ele sera util]`
+`O sistema foi desenvolvido com o objetivo de  facilitar o gerenciamento do transporte escolar, oferecendo aos estudantes uma identificação digital com QR Code e disponibilizando informações sobre linhas, horários e pontos de embarque. Além disso, auxilia os responsáveis pela administração do serviço no controle dos usuários cadastrados.`
 
 **Exemplo orientador:**  
 O sistema tem como objetivo permitir que estudantes solicitem ou acessem uma carteirinha escolar digital, que podera ser validada por motoristas ou responsaveis por meio de QR Code. O sistema tambem devera exibir horarios e localidades dos onibus escolares de acordo com a instituicao vinculada ao estudante.
@@ -64,7 +64,7 @@ O sistema tem como objetivo permitir que estudantes solicitem ou acessem uma car
 ## 1.4 Problema principal
 
 **Modelo:**  
-`[Explicar qual problema real motivou o desenvolvimento do sistema]`
+`Atualmente, a identificação dos estudantes que utilizam o transporte escolar ainda é feita por meio de carteirinhas físicas. Esse processo causar alguns problemas, como perda ou danos na carteirinha, demora na verificação e até o uso do transporte por pessoas que não têm autorização gerando superlotação. Além disso, muitos estudantes acabam tendo dificuldade para encontrar informações atualizadas sobre os horários, rotas e pontos de embarque dos ônibus. `
 
 **Exemplo orientador:**  
 Atualmente, estudantes podem enfrentar dificuldade para emitir, portar ou validar a carteirinha escolar fisica. Alem disso, motoristas e gestores podem ter pouco controle sobre a quantidade de estudantes utilizando o transporte, o que pode contribuir para superlotacao, uso indevido do servico e falta de informacoes claras sobre horarios e rotas.
@@ -72,7 +72,9 @@ Atualmente, estudantes podem enfrentar dificuldade para emitir, portar ou valida
 ## 1.5 Objetivo geral do sistema
 
 **Modelo:**  
-`[Descrever o principal resultado esperado com o uso do sistema]`
+` O objetivo principal deste sistema é criar uma plataforma digital simples e funcional que ajude a organizar o transporte escolar. A ideia é que os estudantes consigam acessar sua carteirinha digital de forma rápida, sem depender de documento físico, além de terem um QR Code que possa ser usado para validação no momento do embarque.
+
+Além disso, o sistema também busca facilitar a vida dos usuários ao reunir em um só lugar informações importantes como horários, rotas e pontos de parada dos ônibus escolares. Com isso, tanto os alunos quanto os motoristas e responsáveis pelo transporte conseguem ter mais clareza e controle sobre o funcionamento do serviço. `
 
 **Exemplo orientador:**  
 Disponibilizar uma plataforma digital para cadastro de estudantes, geracao de carteirinha escolar, validacao por QR Code e consulta de horarios do transporte escolar, melhorando o acesso a informacao e o controle de utilizacao do servico.
@@ -95,7 +97,8 @@ Nesta secao, o aluno deve explicar o cenario atual antes da existencia do sistem
 ## 2.2 Descricao do contexto
 
 **Modelo:**  
-`[Texto explicando o cenario atual e a necessidade do sistema]`
+`Atualmente, o processo de controle do transporte escolar ainda é feito de forma bem tradicional, dependendo de carteirinhas físicas, listas impressas ou até conferências feitas manualmente pelos motoristas. Isso significa que, na prática, não existe um sistema centralizado que organize todas as informações de forma rápida e atualizada. Quem mais acaba sentindo os impactos são os estudantes, os motoristas e também os gestores do transporte escolar. Os alunos, por exemplo, enfrentam dificuldades para comprovar que realmente têm direito ao transporte, principalmente quando esquecem ou perdem a carteirinha física. Já os motoristas precisam fazer verificações rápidas e, muitas vezes, acabam dependendo apenas da identificação visual ou de listas, o que nem sempre é eficiente. As principais dificuldades envolvem justamente a falta de organização e de atualização das informações. Mudanças de horários, rotas ou pontos de parada podem demorar para serem comunicadas, causando confusão e atrasos. Além disso, o controle de quem realmente está utilizando o transporte pode ficar limitado, o que pode gerar problemas como superlotação ou uso indevido do serviço. Essas situações acabam afetando diretamente o tempo, a organização e até a segurança do sistema de transporte escolar. Também existe um impacto na comunicação entre escola, motoristas e alunos, já que as informações não ficam centralizadas em um único lugar.
+Aparti disso, o sistema proposto surge como uma forma de melhorar esse cenário, trazendo mais controle. Com uma plataforma digital, as informações ficam reunidas e atualizadas em tempo real, facilitando o acesso dos estudantes, a verificação por parte dos motoristas e a gestão por parte dos responsáveis.`
 
 **Exemplo orientador:**  
 O processo de identificacao dos estudantes que utilizam transporte escolar depende, em muitos casos, de documentos fisicos, conferencias manuais ou conhecimento previo dos motoristas. Isso pode dificultar a verificacao da validade da carteirinha, permitir falsificacoes ou uso por pessoas nao autorizadas e gerar falta de controle sobre a lotacao dos onibus. Alem disso, os estudantes nem sempre possuem acesso facil aos horarios, pontos de saida e localidades dos onibus escolares. Um sistema digital pode centralizar essas informacoes, facilitar a validacao e melhorar a comunicacao entre estudantes, escolas, motoristas e prefeitura.
