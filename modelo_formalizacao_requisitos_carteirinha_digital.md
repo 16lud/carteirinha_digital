@@ -144,14 +144,26 @@ Um ator e alguem ou algo que interage diretamente com o sistema.
 
 # 5. Escopo do sistema
 
-Esta secao define claramente o que faz parte e o que nao faz parte do sistema.
+O escopo deste sistema define de forma clara o que será desenvolvido neste projeto, deixando bem destacado o objetivo principal, que é a criação de uma carteirinha escolar digital. A proposta é substituir o modelo físico por uma versão digital mais prática, acessível e segura.
+
+O sistema permitirá que cada estudante tenha uma carteirinha digital vinculada ao seu cadastro, contendo um QR Code exclusivo. Esse QR Code será utilizado como forma de identificação no transporte escolar, facilitando a verificação dos alunos autorizados a utilizar o serviço.
+
+Além da carteirinha digital, o sistema também oferecerá funcionalidades complementares, como a consulta de horários, rotas e pontos de parada dos ônibus escolares, ajudando os estudantes a terem mais organização no dia a dia.
+
+Nesta primeira versão, o sistema não incluirá funções mais avançadas, como rastreamento dos ônibus em tempo real, integração com sistemas externos ou emissão de carteirinha física. O foco principal é garantir o funcionamento correto da carteirinha digital e sua validação por QR Code.
 
 ## 5.1 O sistema devera contemplar
 
 **Modelo:**
 
-- `[Funcionalidade ou area que faz parte do sistema]`
-- `[Funcionalidade ou area que faz parte do sistema]`
+- `Cadastro de estudantes com informações básicas como nome, turma e escola.`
+- `Criação de conta e acesso ao sistema por meio de login e senha.`
+- `Geração de carteirinha escolar digital para cada estudante cadastrado.`
+- `Emissão de um QR Code exclusivo vinculado à carteirinha do aluno.`
+- `Validação do QR Code no momento do embarque no transporte escolar.`
+- `Visualização da carteirinha digital pelo próprio estudante.`
+- `Consulta de informações como horários, rotas e pontos de parada dos ônibus escolares.`
+- `Área administrativa para gerenciamento de estudantes e informações do sistema`
 
 **Exemplo orientador:**
 
