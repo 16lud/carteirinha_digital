@@ -10,7 +10,7 @@
 
 Use este checklist como acompanhamento macro do andamento do TCC e do desenvolvimento do sistema.
 
-- [ ] Levantamento de requisitos
+- [.] Levantamento de requisitos
 - [ ] Analise dos usuarios e partes interessadas
 - [ ] Definicao do escopo da primeira versao
 - [ ] Modelagem dos casos de uso
